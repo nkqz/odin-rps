@@ -1,0 +1,78 @@
+*{
+	font-family: roboto;
+	box-sizing: border-box;
+
+}
+
+header{
+	text-align:center;
+	background-color:white;
+	color:black;
+	padding: 10px;
+	
+
+} 
+
+body{
+	background-color:black;
+	color:white;
+}
+
+.score-board {
+	border: 3px solid white;
+	width: 300px;
+	font-size: 40px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 15px 20px;
+	margin: 40px auto;
+
+}
+
+.players{
+	display:flex;
+	justify-content:center;
+	gap:12px;
+}
+	
+.badge {
+	font-size: 14px;
+	
+	border: 1px solid black;
+}
+
+.textchoice, .result{
+	font-weight: 300;
+	text-align: center;
+	font-size: 32px;
+	line-height: 40px;
+	margin-top:4px;
+}
+
+.choices {
+	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0;
+}
+
+.choice {
+	display: inline-block;
+	border: 3px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	margin: auto 10px;
+}
+.choice:hover{
+	box-shadow: 0 0 20px; 
+}
+
+
+	
+footer{
+	text-align:center;
+	font-size:8px;
+	font-style:italic;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
