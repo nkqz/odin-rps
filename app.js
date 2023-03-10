@@ -69,7 +69,7 @@ function game(userChoice) {
 }
 
 function gameover (countgame){
-	if (countgame == 5){
+	if (userScore == 5 || computerScore == 5){
 		if (userScore > computerScore) {
 			result_div.innerHTML = `<p>Game Over! You won!</p>`;
 			
